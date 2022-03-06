@@ -8,14 +8,12 @@ export interface LayoutProps {
 
 export default function Layout({ children }) {
   return (
-    <div className="h-screen bg-ci">
-      <div className="relative pt-6">
-        <GlobalNavigation></GlobalNavigation>
+    <div className="relative pt-6">
+      <GlobalNavigation></GlobalNavigation>
 
-        {children}
+      {children}
 
-        <Footer></Footer>
-      </div>
+      <Footer></Footer>
     </div>
   );
 }

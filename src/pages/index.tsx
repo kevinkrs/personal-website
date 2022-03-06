@@ -2,7 +2,6 @@ import React from 'react';
 import Hero from '../components/Home/hero';
 import Layout from '../components/layout';
 import { GatsbySeo } from 'gatsby-plugin-next-seo';
-
 export default function IndexPage() {
   return (
     <>
