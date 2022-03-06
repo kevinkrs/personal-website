@@ -41,7 +41,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800">
+    <footer className="mt-10 pt-10">
       <div className="mx-auto max-w-7xl overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
         <div className="mt-6 flex justify-center space-x-6">
           <nav
@@ -53,14 +53,14 @@ export default function Footer() {
                 <a
                   href={item.href}
                   target={'_blank'}
-                  className="text-base text-gray-400 hover:text-gray-50"
+                  className="text-base text-gray-200 hover:text-gray-400"
                 >
                   {item.name}
                 </a>
               </div>
             ))}
           </nav>
-          {navigation.social.map((item) => (
+          {/*{navigation.social.map((item) => (
             <a
               key={item.name}
               href={item.href}
@@ -70,9 +70,9 @@ export default function Footer() {
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
-          ))}
+          ))}*/}
         </div>
-        <p className="mt-8 text-center text-base text-gray-400">
+        <p className="mt-8 text-center text-base text-gray-300">
           &copy; {new Date().getFullYear()} Kevin Kraus | Hamburg, Germany
         </p>
       </div>

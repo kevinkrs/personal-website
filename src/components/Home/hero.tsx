@@ -59,13 +59,13 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className="pt-10">
+        <div className="pt-10 pb-10">
           {navigation.social.map((item) => (
             <a
               key={item.name}
               href={item.href}
               target="_blank"
-              className="text-gray-400 hover:text-gray-400"
+              className="text-gray-200 hover:text-gray-400"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />

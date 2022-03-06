@@ -10,13 +10,13 @@ export default function IndexPage() {
     <>
       <GatsbySeo
         title="Full-Stack Development Services"
-        description="I'm Kevin, a full-stack developer and graphic designer from Hamburg Germany with a variety of services to offer."
+        description="I'm Kevin, a full-stack developer and graphic designer from Hamburg Germany with a variety of IT services to offer."
         canonical="https://www.kevinkrs.com"
         openGraph={{
           url: 'https://www.kevinkrs.com',
           title: 'Full-Stack Development Services',
           description:
-            "I'm Kevin, a full-stack developer and graphic designer from Hamburg Germany with a variety of services to offer.",
+            "I'm Kevin, a full-stack developer and graphic designer from Hamburg Germany with a variety of IT services to offer.",
           site_name: 'kevinkrs | Home',
           images: [
             {
@@ -32,7 +32,6 @@ export default function IndexPage() {
       <Layout>
         <Hero></Hero>
         <About></About>
-
         <Footer></Footer>
       </Layout>
     </>
