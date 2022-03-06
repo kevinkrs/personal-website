@@ -51,6 +51,7 @@ export default function Hero() {
                   'Graphic Design',
                   'Backend Development',
                   'Data Science',
+                  'Tech'
                 ],
                 autoStart: true,
                 loop: true,

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Kevin Kraus Full-Stack Developer and Graphic Design`,
+    title: `Kevin Kraus | Full-Stack Developer and Graphic Design`,
     siteUrl: `https://www.kevinkrs.com`,
   },
   plugins: [
