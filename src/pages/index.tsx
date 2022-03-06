@@ -9,7 +9,7 @@ export default function IndexPage() {
   return (
     <>
       <GatsbySeo
-        title="Full-Stack Development Services"
+        title="IT Services"
         description="I'm Kevin, a full-stack developer and graphic designer from Hamburg Germany with a variety of IT services to offer."
         canonical="https://www.kevinkrs.com"
         openGraph={{
