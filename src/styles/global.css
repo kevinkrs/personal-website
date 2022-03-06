@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-ci {
+  background-color: rgba(51, 49, 50);
+}
