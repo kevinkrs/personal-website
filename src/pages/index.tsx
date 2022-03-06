@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Home/hero';
 import Layout from '../components/layout';
+import Background from '../components/background';
 import { GatsbySeo } from 'gatsby-plugin-next-seo';
 export default function IndexPage() {
   return (
@@ -25,6 +26,7 @@ export default function IndexPage() {
           ],
         }}
       />
+      <Background />
       <Layout>
         <Hero></Hero>
       </Layout>

@@ -4,7 +4,6 @@ import { StaticImage } from 'gatsby-plugin-image';
 export default function Hero() {
   return (
     <>
-      <Background />
       <main className="relative mx-auto mt-20 mx-10">
         <div className="grid grid-cols-2 gap-4 h-20">
           <div>
