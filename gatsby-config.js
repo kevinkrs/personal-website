@@ -7,6 +7,15 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-postcss',
     `gatsby-plugin-image`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sitemap',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-sharp`,
       options: {

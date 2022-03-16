@@ -37,7 +37,7 @@ export default function Hero() {
   };
   return (
     <>
-      <main className="relative mx-auto mt-20 mx-10">
+      <main className="relative mx-auto h-screen mx-10">
         <div className="text-center flex-center text-gray-100 hover:text-gray-300 text-3xl">
           <h1>
             <span className="font-bold text-4xl">
