@@ -3,27 +3,29 @@ import React from 'react';
 
 export default function TechStack() {
   return (
-    <main className="relative mx-auto h-screen mx-10">
+    <div className="items-center relative mx-auto h-full mx-10 mt-24">
       <div>
-        <div className="mx:10px flex-center text-gray-100 hover:text-gray-300 text-3xl">
-          Tech Stack
+        <div className="mx:10px mb-24 text-center text-gray-100 hover:text-gray-300 text-3xl">
+          <h2>
+            <span className="font-bold text-4xl">Tech Stack</span>
+          </h2>
         </div>
-        <div className="h-screen grid lg:grid-cols-3 gap-4 place-content-center md:grid-cols-2 ">
-          <div className="border-t-gray-200">
+        <div className="grid mb-24 gap-24 lg:grid-cols-3 lg:gap-4 md:grid-cols-2 md:gap-4">
+          <div className="h-52 lg:border-r-2 border-gray-200 md:border-r-2 border-gray-200">
             {' '}
-            {/* Not working yet. */}
-            <div className="flex justify-center mb-5 text-center flex-center text-gray-100 hover:text-gray-300 text-4xl">
+            <div className="flex justify-center mb-5 text-center text-gray-100 hover:text-gray-300 text-4xl">
               <div className="border-4 px-4 py-3 border-white rounded-lg">
                 {' '}
                 Ai
               </div>
             </div>
-            <div className=" text-center flex-center text-gray-100 hover:text-gray-300 text-xl">
-              Adobe Illustrator - Logos, Illustrations and more
+            <div className="p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
+              Adobe Illustrator - Logos,
+              <br /> Illustrations and more
             </div>
           </div>
 
-          <div>
+          <div className="h-52 lg:border-r-2 border-gray-200 ">
             <div className="flex justify-center mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,12 +47,12 @@ export default function TechStack() {
                 <line x1="13" y1="18" x2="13" y2="18.01" />
               </svg>
             </div>
-            <div className="h-20 border-gray-100 text-center flex-center text-gray-100 hover:text-gray-300 text-xl">
+            <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
               Python - Jack of all Trades
             </div>
           </div>
 
-          <div>
+          <div className="h-52 lg:border-none md:border-r-2 border-gray-200">
             <div className="flex justify-center mb-3">
               <StaticImage
                 src="../../images/techstack/java.png"
@@ -58,11 +60,11 @@ export default function TechStack() {
                 className="w-16"
               />
             </div>
-            <div className="h-20 text-center flex-center text-gray-100 hover:text-gray-300 text-xl">
+            <div className="h-20 p-5 text-center  text-gray-100 hover:text-gray-300 text-xl">
               Java Backend Development
             </div>
           </div>
-          <div>
+          <div className="h-52 lg:border-r-2 border-gray-200">
             <div className="flex justify-center mb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,11 +84,11 @@ export default function TechStack() {
                 <path d="M10 13h4" />
               </svg>
             </div>
-            <div className="h-20 text-center flex-center text-gray-100 hover:text-gray-300 text-xl">
+            <div className="h-20 p-4 text-center text-gray-100 hover:text-gray-300 text-xl">
               Angular - Web Apps
             </div>
           </div>
-          <div>
+          <div className="h-52 lg:border-r-2 border-gray-200 md:border-r-2 border-gray-200">
             {' '}
             <div className="flex justify-center mb-5">
               <svg
@@ -111,12 +113,12 @@ export default function TechStack() {
                 <path d="M12.26 12.015h-.01c-.01 .13 -.12 .24 -.26 .24a0.263 .263 0 0 1 -.25 -.26c0 -.14 .11 -.25 .24 -.25h-.01c.13 -.01 .25 .11 .25 .24" />
               </svg>
             </div>
-            <div className="h-20 text-center flex-center text-gray-100 hover:text-gray-300 text-xl">
-              Frontend Development with React and GatsbyJS
+            <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
+              Frontend Development with <br /> React and GatsbyJS
             </div>
           </div>
 
-          <div>
+          <div className="h-52">
             <div className="flex justify-center mb-3">
               <StaticImage
                 src="../../images/techstack/brain.png"
@@ -124,12 +126,13 @@ export default function TechStack() {
                 className="w-16 mb-4"
               />
             </div>
-            <div className="h-20 text-center flex-center text-gray-100 hover:text-gray-300 text-xl">
-              Machine Learning and Neural Networks
+            <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
+              Machine Learning and <br />
+              Neural Networks
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

@@ -37,17 +37,14 @@ export default function Hero() {
   };
   return (
     <>
-      <main className="relative mx-auto h-screen mx-10">
-        <div className="text-center flex-center text-gray-100 hover:text-gray-300 text-3xl">
+      <main className="relative mx-auto mx-10 mb-24">
+        <div className="mt-36 text-center flex-center text-gray-100 hover:text-gray-300 text-3xl">
           <h1>
             <span className="font-bold text-4xl">
               Hi! I`m Kevin, a freelance Developer &amp; Graphic Designer
             </span>{' '}
-            <span className="block mt-2">
-              Site currently under construction
-            </span>
           </h1>
-          <div className="font-bold text-5xl mt-20 text-gray-400">
+          <div className="font-bold text-3xl sm:text-5xl mt-20 text-gray-400">
             <TypeWriter
               options={{
                 strings: [

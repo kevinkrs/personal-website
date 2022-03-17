@@ -8,7 +8,7 @@ export interface LayoutProps {
 
 export default function Layout({ children }) {
   return (
-    <div className="relative pt-6">
+    <div className="relative pt-6 mx-10">
       <GlobalNavigation></GlobalNavigation>
 
       {children}

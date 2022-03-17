@@ -6,6 +6,8 @@ import Background from '../components/background';
 import { GatsbySeo } from 'gatsby-plugin-next-seo';
 import Footer from '../components/footer';
 import TechStack from '../components/Home/tech-stack';
+import Customers from '../components/Home/customers';
+import Contact from '../components/Home/contact';
 export default function IndexPage() {
   return (
     <>
@@ -34,6 +36,8 @@ export default function IndexPage() {
         <Hero></Hero>
         <About></About>
         <TechStack></TechStack>
+        <Customers></Customers>
+        <Contact></Contact>
         <Footer></Footer>
       </Layout>
     </>
