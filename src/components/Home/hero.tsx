@@ -38,21 +38,23 @@ export default function Hero() {
   return (
     <>
       <main className="relative mx-auto mx-10 mb-24">
-        <div className="mt-36 text-center flex-center text-gray-100 hover:text-gray-300 text-3xl">
+        <div className="mt-12 md:mt-32 lg:mt-32 text-center flex-center text-gray-100 hover:text-gray-300 text-3xl">
           <h1>
             <span className="font-bold text-4xl">
-              Hi! I`m Kevin, a freelance Developer &amp; Graphic Designer
+              Hi! I am Kevin, a Freelance Developer based in Hamburg, Germany
             </span>{' '}
           </h1>
           <div className="font-bold text-3xl sm:text-5xl mt-20 text-gray-400">
             <TypeWriter
               options={{
                 strings: [
+                  'Backend Development',
+                  'Software Architecture',
                   'Frontend Development',
                   'Graphic Design',
-                  'Backend Development',
                   'Data Science',
-                  'Tech',
+                  'Ethical Hacking',
+                  'Security',
                 ],
                 autoStart: true,
                 loop: true,
@@ -72,6 +74,23 @@ export default function Hero() {
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
+        </div>
+        <div className="flex justify-center mt-4 lg:mt-12 md:mt-12">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="icon icon-tabler icon-tabler-chevron-down"
+            width="80"
+            height="80"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#f3f4f6"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
         </div>
       </main>
     </>
