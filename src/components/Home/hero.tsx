@@ -48,13 +48,14 @@ export default function Hero() {
             <TypeWriter
               options={{
                 strings: [
-                  'Backend Development',
+                  'Web Development',
+                  'Software Development',
                   'Software Architecture',
-                  'Frontend Development',
                   'Graphic Design',
                   'Data Science',
                   'Ethical Hacking',
                   'Security',
+                  'Automation',
                 ],
                 autoStart: true,
                 loop: true,

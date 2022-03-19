@@ -53,6 +53,7 @@ export default function About() {
                 <li>Prototyping</li>
                 <li>Security Testing</li>
                 <li>Illustration</li>
+                <li>Automation</li>
               </ul>
             </div>
           </div>
