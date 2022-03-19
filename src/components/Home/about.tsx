@@ -20,18 +20,30 @@ export default function About() {
             <div className="text-center text-gray-100 hover:text-gray-300 text-3xl">
               <div className="mx:10px pt-4 flex-center text-center text-gray-100 hover:text-gray-300 text-3xl">
                 <h2>
-                  <span className="font-bold text-4xl">
-                    Welcome to my page!
-                  </span>
+                  <span className="font-bold text-4xl">Hi!</span>
                 </h2>
               </div>
             </div>
             <div className="text-gray-100 text-xl my-10 mx-10">
-              <p>I'm Kevin a Freelance Developer based in Hamburg, Germany. </p>
+              <p>
+                I'm Kevin a student and freelance developer based in Hamburg,
+                Germany.{' '}
+              </p>
 
               <p>
-                More information is coming! Meanwhile, you can take a look at my
-                tech-stack below or check up my GitHub.{' '}
+                My focus lies on data engineering, data science, backend
+                development, software architecture and computer security. I
+                started my programming journey three years ago and got trough
+                different languages, frameworks, libraries and especially
+                problems. I am an explorer and learner, always seeking for new
+                adventures!{' '}
+                <p>
+                  I am open, communicative and have different experiences from
+                  working with startups, small companies as well as larger ones.
+                  If this sounds like someone you want to work with, make it
+                  easy and reach out!
+                </p>
+                <p>Check out my github page:</p>
                 <a href="https://github.com/kevinkrs7" target="_blank">
                   <svg
                     fill="currentColor"
