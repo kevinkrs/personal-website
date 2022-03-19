@@ -28,6 +28,7 @@ jobs:
   deploy:
     steps:
       - name: Deploy
+        type: git
         repo: git@github.com:kevinkrs7/personal-website.git
         run: npm run deploy
         env:
