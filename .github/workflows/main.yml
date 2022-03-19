@@ -30,4 +30,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Deploy
         run: npm run deploy
-  
+        env:
+          GITHUB_TOKEN:
+${{secrets.GITHUB_REPO_TOKEN}}
