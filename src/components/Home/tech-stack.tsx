@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function TechStack() {
   return (
-    <div className="mx-auto h-full mx-10 mt-24">
+    <div className="mx-auto h-full mx-10 my-36">
       <div>
         <div className="mx:10px mb-24 text-center text-gray-100 hover:text-gray-300 text-3xl">
           <h2>

@@ -76,7 +76,7 @@ export default function Hero() {
             </a>
           ))}
         </div>
-        <div className="flex justify-center mt-4 lg:mt-12 md:mt-12">
+        <div className="flex justify-center mt-4 lg:mt-36 md:mt-36">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-dots-vertical"

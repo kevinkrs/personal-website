@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <main className="flex items-center mx-auto h-full">
+    <main className="flex items-center mx-auto h-full mt-64">
       <div className="">
         <div className="grid lg:grid-cols-2 gap-4 place-items-center">
           <div className="mx-auto">
@@ -27,7 +27,7 @@ export default function About() {
             <div className="text-gray-100 text-xl my-10 mx-10">
               <p>
                 {' '}
-                I'm Kevin a student and freelance developer based in Hamburg,
+                I'm, Kevin a student and freelance developer based in Hamburg,
                 Germany.{' '}
               </p>
               <p>
@@ -44,7 +44,7 @@ export default function About() {
                 If this sounds like someone you want to work with, make it easy
                 and reach out!
               </p>
-              <p>Check out my github page:</p>
+              <p>Check out my github:</p>
               <a href="https://github.com/kevinkrs7" target="_blank">
                 <svg
                   fill="currentColor"
