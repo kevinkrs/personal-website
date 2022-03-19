@@ -16,7 +16,7 @@ export default function About() {
             />
           </div>
 
-          <div className="max-auto mx-auto bg-gray-700 p-2 lg:p-12 md:p-12 rounded-lg">
+          <div className="max-auto mx-auto bg-gray-700 p-2 lg:p-4 md:p-4 rounded-lg">
             <div className="text-center text-gray-100 hover:text-gray-300 text-3xl">
               <div className="mx:10px pt-4 flex-center text-center text-gray-100 hover:text-gray-300 text-3xl">
                 <h2>
@@ -58,15 +58,17 @@ export default function About() {
                   />
                 </svg>
               </a>
-              <ul className="list-disc">
-                <li>Software Implementation</li>
-                <li>Architecture Planung</li>
-                <li>Feature Planing &amp; Implementation</li>
-                <li>Prototyping</li>
-                <li>Security Testing</li>
-                <li>Illustration</li>
-                <li>Automation</li>
-              </ul>
+              <p>
+                <ul className="list-disc">
+                  <li>Software Implementation</li>
+                  <li>Architecture Planung</li>
+                  <li>Feature Planing &amp; Implementation</li>
+                  <li>Prototyping</li>
+                  <li>Security Testing</li>
+                  <li>Illustration</li>
+                  <li>Automation</li>
+                </ul>
+              </p>
             </div>
           </div>
         </div>
