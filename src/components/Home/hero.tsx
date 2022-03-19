@@ -79,9 +79,9 @@ export default function Hero() {
         <div className="flex justify-center mt-4 lg:mt-12 md:mt-12">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="icon icon-tabler icon-tabler-chevron-down"
-            width="80"
-            height="80"
+            className="icon icon-tabler icon-tabler-dots-vertical"
+            width="44"
+            height="44"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="#f3f4f6"
@@ -90,7 +90,9 @@ export default function Hero() {
             stroke-linejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <polyline points="6 9 12 15 18 9" />
+            <circle cx="12" cy="12" r="1" />
+            <circle cx="12" cy="19" r="1" />
+            <circle cx="12" cy="5" r="1" />
           </svg>
         </div>
       </main>
