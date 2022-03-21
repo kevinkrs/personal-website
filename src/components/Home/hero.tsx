@@ -44,7 +44,7 @@ export default function Hero() {
               Hi! I am Kevin, a Freelance Developer based in Hamburg, Germany
             </span>{' '}
           </h1>
-          <div className="font-bold text-3xl sm:text-5xl mt-20 text-gray-400">
+          <div className="font-bold text-3xl sm:text-5xl mt-20 h-24 text-gray-400">
             <TypeWriter
               options={{
                 strings: [
@@ -76,7 +76,7 @@ export default function Hero() {
             </a>
           ))}
         </div>
-        <div className="flex justify-center mt-4 lg:mt-36 md:mt-36">
+        <div className="flex justify-center lg:mt-36 md:mt-36">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-dots-vertical"
