@@ -26,6 +26,7 @@ export default function TechStack() {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
+                <title>React with GatsbyJS</title>
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M6.357 9c-2.637 .68 -4.357 1.845 -4.357 3.175c0 2.107 4.405 3.825 9.85 3.825c.74 0 1.26 -.039 1.95 -.097" />
                 <path d="M9.837 15.9c-.413 -.596 -.806 -1.133 -1.18 -1.8c-2.751 -4.9 -3.488 -9.77 -1.63 -10.873c1.15 -.697 3.047 .253 4.974 2.254" />
@@ -54,6 +55,7 @@ export default function TechStack() {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
+                <title>Python</title>
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
                 <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
@@ -93,6 +95,7 @@ export default function TechStack() {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
+                <title>Angular</title>
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5.428 17.245l6.076 3.471a1 1 0 0 0 .992 0l6.076 -3.471a1 1 0 0 0 .495 -.734l1.323 -9.704a1 1 0 0 0 -.658 -1.078l-7.4 -2.612a1 1 0 0 0 -.665 0l-7.399 2.613a1 1 0 0 0 -.658 1.078l1.323 9.704a1 1 0 0 0 .495 .734z" />
                 <path d="M9 15l3 -8l3 8" />
@@ -107,8 +110,7 @@ export default function TechStack() {
             {' '}
             <div className="flex justify-center mb-5 text-center text-gray-100 hover:text-gray-300 text-4xl">
               <div className="border-4 px-4 py-3 border-white rounded-lg">
-                {' '}
-                Ai
+                <title>Adobe Illustrator</title> Ai
               </div>
             </div>
             <div className="p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
