@@ -24,7 +24,7 @@ export default function About() {
                 </h2>
               </div>
             </div>
-            <div className="text-gray-100 text-xl my-10 mx-10">
+            <div className="text-gray-100 text-xl my-10 mx-2 lg:mx-8 md:mx-8">
               <p>
                 {' '}
                 I'm, Kevin a student and freelance developer based in Hamburg,
