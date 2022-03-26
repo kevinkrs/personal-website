@@ -15,6 +15,7 @@ export default function IndexPage() {
         title="IT Services | Kevin Kraus"
         description="I'm Kevin, a freelance full-stack developer from Hamburg Germany with a variety of IT services to offer."
         canonical="https://www.kevinkrs.com"
+        language="en"
         openGraph={{
           url: 'https://www.kevinkrs.com',
           title: 'Full-Stack Development Services',
