@@ -40,8 +40,8 @@ export default function Hero() {
       <main className="relative mx-auto mx-10 mb-24">
         <div className="mt-12 md:mt-32 lg:mt-32 text-center flex-center text-gray-100 hover:text-gray-300 text-3xl">
           <h1>
-            <span className="font-bold text-4xl">
-              Hi! I am Kevin, a Freelance Developer based in Hamburg, Germany
+            <span className="font-bold text-3xl">
+              Full-Stack Development Services
             </span>{' '}
           </h1>
           <div className="font-bold text-3xl sm:text-5xl mt-20 h-24 text-gray-400">
@@ -51,11 +51,7 @@ export default function Hero() {
                   'Web Development',
                   'Software Development',
                   'Software Architecture',
-                  'Graphic Design',
-                  'Data Science',
-                  'Ethical Hacking',
-                  'Security',
-                  'Automation',
+                  'Process Automation',
                 ],
                 autoStart: true,
                 loop: true,

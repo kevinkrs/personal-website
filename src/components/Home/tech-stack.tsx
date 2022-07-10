@@ -26,7 +26,7 @@ export default function TechStack() {
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <title>React with GatsbyJS</title>
+                <title>Reactive Web Programming</title>
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M6.357 9c-2.637 .68 -4.357 1.845 -4.357 3.175c0 2.107 4.405 3.825 9.85 3.825c.74 0 1.26 -.039 1.95 -.097" />
                 <path d="M9.837 15.9c-.413 -.596 -.806 -1.133 -1.18 -1.8c-2.751 -4.9 -3.488 -9.77 -1.63 -10.873c1.15 -.697 3.047 .253 4.974 2.254" />
@@ -38,7 +38,7 @@ export default function TechStack() {
               </svg>
             </div>
             <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
-              Frontend Development with <br /> React and GatsbyJS
+              Reactive Web Programming
             </div>
           </div>
           <div className="h-52 lg:border-r-2 border-gray-200 ">
@@ -65,57 +65,7 @@ export default function TechStack() {
               </svg>
             </div>
             <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
-              Python - Jack of all Trades
-            </div>
-          </div>
-
-          <div className="h-52 lg:border-none md:border-r-2 border-gray-200">
-            <div className="flex justify-center mb-3">
-              <StaticImage
-                src="../../images/techstack/java.png"
-                alt="Java logo"
-                className="w-16"
-              />
-            </div>
-            <div className="h-20 p-5 text-center  text-gray-100 hover:text-gray-300 text-xl">
-              Java Development
-            </div>
-          </div>
-          <div className="h-52 lg:border-r-2 border-gray-200">
-            <div className="flex justify-center mb-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="icon icon-tabler icon-tabler-brand-angular"
-                width="80"
-                height="80"
-                viewBox="0 0 24 24"
-                stroke-width="1.0"
-                stroke="#f3f4f6"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Angular</title>
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M5.428 17.245l6.076 3.471a1 1 0 0 0 .992 0l6.076 -3.471a1 1 0 0 0 .495 -.734l1.323 -9.704a1 1 0 0 0 -.658 -1.078l-7.4 -2.612a1 1 0 0 0 -.665 0l-7.399 2.613a1 1 0 0 0 -.658 1.078l1.323 9.704a1 1 0 0 0 .495 .734z" />
-                <path d="M9 15l3 -8l3 8" />
-                <path d="M10 13h4" />
-              </svg>
-            </div>
-            <div className="h-20 p-4 text-center text-gray-100 hover:text-gray-300 text-xl">
-              Angular - Web Apps
-            </div>
-          </div>
-          <div className="h-52 lg:border-r-2 border-gray-200 md:border-r-2 border-gray-200">
-            {' '}
-            <div className="flex justify-center mb-5 text-center text-gray-100 hover:text-gray-300 text-4xl">
-              <div className="border-4 px-4 py-3 border-white rounded-lg">
-                <title>Adobe Illustrator</title> Ai
-              </div>
-            </div>
-            <div className="p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
-              Adobe Illustrator - Logos,
-              <br /> Illustrations and more
+              Python Backend Development
             </div>
           </div>
 

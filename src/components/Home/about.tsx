@@ -27,24 +27,22 @@ export default function About() {
             <div className="text-gray-100 text-xl my-10 mx-2 lg:mx-8 md:mx-8">
               <p>
                 {' '}
-                I'm, Kevin a student and freelance developer based in Hamburg,
-                Germany.{' '}
+                I'm, Kevin a full-stack developer based in Hamburg, Germany.{' '}
               </p>
               <p>
-                My focus lies on data engineering, data science, backend
-                development, software architecture and computer security. I
-                started my programming journey three years ago and got trough
-                different languages, frameworks, libraries and especially
-                problems. I am an explorer and learner, always seeking for new
-                adventures!{' '}
+                I focus on software development, software architecture and IT
+                security. Additionally I've earned some experience in data
+                engineering and machine learning algorithms for different
+                purposes (e.g. data science) My journey started three years ago
+                and ever since I made my way trough different languages,
+                frameworks, libraries and especially challenges. I am an
+                explorer and eternal learner, always seeking for new adventures!{' '}
               </p>
               <p>
-                I am open, communicative and have different experiences from
-                working with startups, small companies as well as larger ones.
-                If this sounds like someone you want to work with, make it easy
-                and reach out!
+                If this sounds like someone you want to work with, feel free and
+                reach out!
               </p>
-              <p>Check out my github:</p>
+              <p>Meanwhile, check out my GitHub:</p>
               <a href="https://github.com/kevinkrs7" target="_blank">
                 <svg
                   fill="currentColor"
@@ -58,17 +56,6 @@ export default function About() {
                   />
                 </svg>
               </a>
-              <p>
-                <ul className="list-disc">
-                  <li>Software Implementation</li>
-                  <li>Architecture Planung</li>
-                  <li>Feature Planing &amp; Implementation</li>
-                  <li>Prototyping</li>
-                  <li>Security Testing</li>
-                  <li>Illustration</li>
-                  <li>Automation</li>
-                </ul>
-              </p>
             </div>
           </div>
         </div>

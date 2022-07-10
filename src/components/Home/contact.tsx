@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <div className="relative flex-row justify-around mx-auto h-full">
-      <div className="bg-gray-700 rounded-lg p-12 h-84">
+      <div className="">
         <div className="mx:10px mb-24 text-center text-gray-100 hover:text-gray-300 text-3xl">
           <h2>
             <span className="font-bold text-4xl">Feel free to contact me!</span>
