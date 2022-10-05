@@ -27,7 +27,7 @@ export default function About() {
             <div className="text-gray-100 text-xl my-10 mx-2 lg:mx-8 md:mx-8">
               <p>
                 {' '}
-                I'm, Kevin a full-stack developer based in Hamburg, Germany.{' '}
+                I'm Kevin, a full-stack developer based in Hamburg, Germany.{' '}
               </p>
               <p>
                 I focus on software development, software architecture and IT

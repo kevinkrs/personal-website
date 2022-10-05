@@ -65,7 +65,7 @@ export default function TechStack() {
               </svg>
             </div>
             <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
-              Python Backend Development
+              Python software architecture and development
             </div>
           </div>
 
@@ -78,8 +78,7 @@ export default function TechStack() {
               />
             </div>
             <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
-              Machine Learning and <br />
-              Neural Networks
+              Applied AI | From code to product
             </div>
           </div>
         </div>
