@@ -33,13 +33,16 @@ export default function About() {
                 I focus on software development, software architecture and IT
                 security. Additionally I've earned some experience in data
                 engineering and machine learning algorithms for different
-                purposes (e.g. data science) My journey started three years ago
-                and ever since I made my way trough different languages,
-                frameworks, libraries and especially challenges. I am an
-                explorer and eternal learner, always seeking for new adventures!{' '}
+                purposes (e.g. data science).
               </p>
               <p>
-                If this sounds like someone you want to work with, feel free and
+                My journey started three years ago and ever since I made my way
+                trough different languages, frameworks, libraries and especially
+                challenges. I'm an explorer and eternal learner, always seeking
+                for new adventures.{' '}
+              </p>
+              <p>
+                If this sounds like someone you want to work with, feel free to
                 reach out!
               </p>
               <p>Meanwhile, check out my GitHub:</p>
