@@ -1,8 +1,8 @@
 {
-  "name": "personal-website",
-  "version": "2.0.1git ",
+  "name": "freelance-website",
+  "version": "2.1.0git ",
   "private": true,
-  "description": "personal-website",
+  "description": "Freelance marketing website",
   "author": "Kevin",
   "keywords": [
     "gatsby"
