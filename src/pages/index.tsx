@@ -37,6 +37,7 @@ export default function IndexPage() {
         <Hero></Hero>
         <About></About>
         <TechStack></TechStack>
+        //TODO: Add customers (PLANIT, elbWalker, Havendi, ...)
         {/*<Customers></Customers>*/}
         <Contact></Contact>
         <Footer></Footer>

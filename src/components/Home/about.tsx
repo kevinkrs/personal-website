@@ -30,21 +30,18 @@ export default function About() {
                 I'm Kevin, a full-stack developer based in Hamburg, Germany.{' '}
               </p>
               <p>
-                I focus on software development, software architecture and IT
-                security. Additionally I've earned some experience in data
-                engineering and machine learning algorithms for different
-                purposes (e.g. data science).
+                In software development I focus mainly on software architecture
+                and machine learning. Especially the part of not only training
+                AI but bringing it into production and creating neat, entire
+                working products amazes me. My research focus in my masters
+                studies is on medical informatics.
               </p>
               <p>
-                My journey started three years ago and ever since I made my way
-                trough different languages, frameworks, libraries and especially
-                challenges. I'm an explorer and eternal learner, always seeking
-                for new adventures.{' '}
+                We are living the future and tech is just getting more and more
+                amazing. I'm glad to be part of this revolution as explorer and
+                eternal learner, always seeking for new adventures.{' '}
               </p>
-              <p>
-                If this sounds like someone you want to work with, feel free to
-                reach out!
-              </p>
+              <p>Sounds interesting? Feel free to contact me.</p>
               <p>Meanwhile, check out my GitHub:</p>
               <a href="https://github.com/kevinkrs7" target="_blank">
                 <svg
