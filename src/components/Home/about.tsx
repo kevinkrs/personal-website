@@ -43,7 +43,7 @@ export default function About() {
               </p>
               <p>Sounds interesting? Feel free to contact me.</p>
               <p>Meanwhile, check out my GitHub:</p>
-              <a href="https://github.com/kevinkrs7" target="_blank">
+              <a href="https://github.com/kevinkrs" target="_blank">
                 <svg
                   fill="currentColor"
                   viewBox="0 0 32.58 31.77"

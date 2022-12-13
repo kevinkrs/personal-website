@@ -8,7 +8,7 @@ const navigation = {
   social: [
     {
       name: 'Github',
-      href: 'https://github.com/kevinkrs7',
+      href: 'https://github.com/kevinkrs',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 32.58 31.77" {...props}>
           <path
