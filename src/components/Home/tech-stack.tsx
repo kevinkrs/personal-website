@@ -72,6 +72,19 @@ export default function TechStack() {
           <div className="h-52">
             <div className="flex justify-center mb-3">
               <StaticImage
+                src="../../images/techstack/cyber-security.png"
+                alt="DevOps and Security Architecture"
+                className="w-16 mb-4"
+              />
+            </div>
+            <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
+              DevOps & Security Architecture
+            </div>
+          </div>
+
+          <div className="h-52">
+            <div className="flex justify-center mb-3">
+              <StaticImage
                 src="../../images/techstack/brain.png"
                 alt="Brain"
                 className="w-16 mb-4"
