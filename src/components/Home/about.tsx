@@ -33,6 +33,7 @@ export default function About() {
                 My specialisiation is the development of Machine Learning models. My way of work covers the whole life-cicle from
                 problem analysis, architecture conception, experimentation, to the final deployment of the developed system. In the last couple of years, I worked as Software Engineer and AI-researcher going thorugh multiple development projects. So if there's any kind of challenge you or your company is facing regarding AI, ML and ML-Ops or similar, feel free to get in touch!
               </p>
+              <p></p>
               <p>
                 Future has already reached us and AI is getting more and more
                 exciting, finding it's way into all domains of life. Hence, I'm glad to be part of this revolution, being an explorer and
