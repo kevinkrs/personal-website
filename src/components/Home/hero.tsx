@@ -40,9 +40,9 @@ export default function Hero() {
       <main className="relative mx-auto mx-10 mb-24">
         <div className="mt-12 md:mt-32 lg:mt-32 text-center flex-center text-gray-100 hover:text-gray-300 text-3xl">
           <h1>
-            <h2 className="font-bold text-gray-400 text-xl">FREELANCE</h2>
+            <h2 className="font-bold text-gray-400 text-xl">PERSONAL WEBSITE</h2>
             <span className="font-bold text-3xl sm:text-5xl">
-              Full-Stack Developer
+              Techie | Founder
             </span>{' '}
           </h1>
           {/* <div className="font-bold text-3xl sm:text-5xl mt-20 h-24 text-gray-400">

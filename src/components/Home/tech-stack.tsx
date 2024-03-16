@@ -91,7 +91,7 @@ export default function TechStack() {
               />
             </div>
             <div className="h-20 p-5 text-center text-gray-100 hover:text-gray-300 text-xl">
-              Applied AI | From model to production
+              Applied AI with pytorch
             </div>
           </div>
         </div>
